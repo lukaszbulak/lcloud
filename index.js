@@ -85,7 +85,8 @@ if (process.argv.length < 7) {
 }
 function help() {
     console.log("S3 client application")
-    console.log("  use commands:")
+    console.log(" provide constant parameters ACCESS_KEY_ID ACCESS_KEY BUCKET_NAME PREFIX");
+    console.log("  then use commands:")
     console.log("   list  BUCKET PREFIX <regex>")
     console.log("      lists files in bucket with prefix, limiting to <regex> if provided")
 }
